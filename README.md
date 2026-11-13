@@ -1,10 +1,15 @@
 <div align="center">
 
-# readme-templates
+# 📝 readme-templates
 
-*Two README templates, private and public, that make README better.*
+### *Two README templates, private and public, that make README better*
 
 [![License](https://img.shields.io/github/license/Mist-wu/readme-templates)](LICENSE)
+
+[Why](#why-readme-templates) •
+[Quick start](#quick-start) •
+[Usage](#usage) •
+[License](#license)
 
 </div>
 
@@ -12,10 +17,28 @@
 
 Most READMEs fail in one of two ways: a wall of setup notes nobody reads, or a pile of badges with no clear first sentence. These templates fix the shape so you only fill in content.
 
-- **Two audiences, two templates**: a private one (Chinese, one screen, for future you) and a public one (English, for strangers).
-- **README is for humans only**: commands in depth, conventions and don'ts go to `AGENTS.md`.
-- **Hints live in `<!-- -->` comments**: they never render, so a half-filled template still looks clean.
-- **Optional parts are commented out**, not deleted: banner, nav row, feature table, alerts, screenshots, Cite.
+<table>
+<tr>
+<td width="50%">
+
+### Two audiences, two templates
+Private: Chinese, one screen, for future you. Public: English, for strangers.
+
+### README is for humans
+Command catalogs, conventions and don'ts go to `AGENTS.md`.
+
+</td>
+<td width="50%">
+
+### Hints never render
+Guidance lives in `<!-- -->` comments, so a half-filled template still looks clean.
+
+### Optional parts are ready
+Banner, nav row, feature table, alerts, screenshots and Cite are commented out, not deleted.
+
+</td>
+</tr>
+</table>
 
 ## Quick start
 
@@ -49,7 +72,7 @@ Replace placeholders, uncomment the optional sections you need, delete the rest.
 | Reader | Future you, and agents | A stranger on first visit |
 | Language | Chinese | English |
 | Length | One screen | As long as Quick start + Usage need |
-| Header | Plain `#` title + one line | Centered: optional logo, tagline, up to 3 badges |
+| Header | Plain `#` title + one line | Centered: optional logo and emoji, h3 tagline, up to 3 badges |
 | Sections | 状态 · 快速开始 · 目录 · 笔记 | Why · Quick start · Usage · License, plus optional ones |
 
 ### Split README and AGENTS.md
@@ -71,7 +94,7 @@ ln -s AGENTS.md CLAUDE.md
 
 - One sentence under the title that says what it is. This matters more than any image.
 - A screenshot or GIF of the result right after the first command.
-- At most 3 badges, no emoji headings, no Features list that repeats Why.
+- At most 3 badges. One emoji in the title is fine, none in section headings.
 - Long or secondary content goes into `<details>` or `docs/`.
 
 Header and Quick start style borrow from [GuideLLM](https://github.com/vllm-project/guidellm) and [Parabolic](https://github.com/NickvisionApps/Parabolic).

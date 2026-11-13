@@ -11,7 +11,7 @@ This repo holds README templates only. See README.md for what each file is for.
 ## Constraints on the templates
 
 - Private template renders within one screen. Plain `#` title, no images, no badges.
-- Public template: at most 3 badges, no emoji in headings, header block centered.
+- Public template: at most 3 badges, at most one emoji and only in the `#` title, never in section headings; header block centered with an h3 italic tagline.
 - All guidance goes in `<!-- -->` comments, never in rendered text. Optional sections are commented out, not removed.
 - README templates never contain agent-facing content (exact command catalogs, conventions, don'ts). That belongs in a repo's AGENTS.md.
 - Chinese text follows the zh-tech-writing rules: short sentences, a space between Chinese and Latin/digits, full-width punctuation.

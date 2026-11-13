@@ -10,9 +10,10 @@ With a dark-mode variant:
 </picture>
 -->
 
+<!-- Optional: one emoji before the name, e.g. "# 📝 Name". Only in the title, never in section headings. -->
 # Name
 
-*One line: what it is and who it is for.*
+### *One line: what it is and who it is for*
 
 <!-- Max 3 badges: version, license, CI. Everything else becomes a link in the text. -->
 [![Version](https://img.shields.io/github/v/release/OWNER/REPO?label=version)](https://github.com/OWNER/REPO/releases)

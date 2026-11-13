@@ -1,8 +1,8 @@
 <div align="center">
 
-# tokmeter
+# ⏱️ tokmeter
 
-*Measure tokens per second of any OpenAI-compatible endpoint from your terminal.*
+### *Measure tokens per second of any OpenAI-compatible endpoint from your terminal*
 
 [![Version](https://img.shields.io/badge/version-0.3.0-blue)](#)
 [![License](https://img.shields.io/badge/license-MIT-green)](#license)
