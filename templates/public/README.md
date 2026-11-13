@@ -1,9 +1,17 @@
+<!--
+How to fill this in:
+1. Replace `Name` (display name), `name` (command or package) and `OWNER/REPO` everywhere.
+2. Uncomment the optional parts you need: delete the first and the last line of the comment.
+3. Delete every comment that is left, including this one.
+-->
+
 <div align="center">
 
-<!-- Optional: logo or banner. Delete if you have none.
+<!-- Optional: logo or banner.
 <img src="docs/assets/banner.png" alt="Name" width="60%">
+-->
 
-With a dark-mode variant:
+<!-- Optional: logo with a dark-mode variant, instead of the one above.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-dark.png">
   <img src="docs/assets/logo-light.png" alt="Name" width="40%">
@@ -15,12 +23,15 @@ With a dark-mode variant:
 
 ### *One line: what it is and who it is for*
 
-<!-- Max 3 badges: version, license, CI. Everything else becomes a link in the text. -->
+<!--
+Max 3 badges: version, license, CI. Everything else becomes a link in the text.
+Delete a badge that has nothing to show yet: with no release or no ci.yml it renders a red "not found".
+-->
 [![Version](https://img.shields.io/github/v/release/OWNER/REPO?label=version)](https://github.com/OWNER/REPO/releases)
 [![License](https://img.shields.io/github/license/OWNER/REPO)](LICENSE)
 [![CI](https://img.shields.io/github/actions/workflow/status/OWNER/REPO/ci.yml?branch=main&label=CI)](https://github.com/OWNER/REPO/actions)
 
-<!-- Optional nav row, only when there are more than 5 sections.
+<!-- Optional nav row, once the README is longer than about two screens.
 [Why](#why-name) • [Quick start](#quick-start) • [Usage](#usage) • [License](#license)
 -->
 
@@ -38,7 +49,7 @@ Two or three sentences: the problem, and why this is a good answer to it.
 - **Concrete claim two**, same shape.
 - **Concrete claim three**. Write as many as are true, 3 to 5 is typical.
 
-<!-- Alternative for apps with a UI: a two-column feature table instead of the list above.
+<!-- Optional: a two-column feature table instead of the list above, for features that each need a heading and a sentence.
 <table>
 <tr>
 <td width="50%">
@@ -100,14 +111,10 @@ name do-other
 
 <!-- 2 to 4 cases. Link to docs/ for the rest. -->
 
-<!-- Optional sections. Uncomment what applies, delete the rest.
-
-## How it works
-
-One diagram or one paragraph.
+<!-- Optional elements, usable in any section. Move what you need, delete the rest.
 
 > [!NOTE]
-> Use GitHub alerts (NOTE / TIP / IMPORTANT / WARNING / CAUTION) for the one thing readers must not miss.
+> A GitHub alert (NOTE / TIP / IMPORTANT / WARNING / CAUTION). Keep it for the one thing readers must not miss.
 
 <details>
 <summary><b>More screenshots</b></summary>
@@ -117,6 +124,13 @@ One diagram or one paragraph.
 | ![A](docs/assets/a.png) | ![B](docs/assets/b.png) |
 
 </details>
+-->
+
+<!-- Optional sections. Uncomment what applies, delete the rest.
+
+## How it works
+
+One diagram or one paragraph.
 
 ## Documentation
 
@@ -148,6 +162,8 @@ Issues and PRs are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 ```
 
 ## Acknowledgements
+
+- [Project](https://example.com): what this project borrows from it.
 
 -->
 

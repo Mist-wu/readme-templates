@@ -52,9 +52,11 @@ curl -fsSL https://raw.githubusercontent.com/Mist-wu/readme-templates/main/templ
 curl -fsSL https://raw.githubusercontent.com/Mist-wu/readme-templates/main/templates/public/README.md -o README.md
 ```
 
+Either command overwrites `README.md` in the current directory.
+
 ### Fill it in
 
-Replace placeholders, uncomment the optional sections you need, delete the rest. For public repos, search for `OWNER/REPO`.
+Replace the placeholders, uncomment the optional parts you need, then delete the comments that are left. In the public template the placeholders are `Name`, `name` and `OWNER/REPO`.
 
 ### Compare with a filled example
 
@@ -94,7 +96,7 @@ ln -s AGENTS.md CLAUDE.md
 
 - One sentence under the title that says what it is. This matters more than any image.
 - A screenshot or GIF of the result right after the first command.
-- At most 3 badges. One emoji in the title is fine, none in section headings.
+- At most 3 badges, and none that render "not found". One emoji in the title is fine, none in section headings.
 - Long or secondary content goes into `<details>` or `docs/`.
 
 Header and Quick start style borrow from [GuideLLM](https://github.com/vllm-project/guidellm) and [Parabolic](https://github.com/NickvisionApps/Parabolic).

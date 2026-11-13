@@ -19,7 +19,7 @@ Provider dashboards report averages. When you tune a serving stack you need the 
 
 - **Full latency distribution**: TTFT, inter-token latency and end-to-end time, reported as p50 / p90 / p99.
 - **Your prompts, not synthetic ones**: point it at a JSONL file of real requests.
-- **One binary, no server**: results print as a table and save as CSV.
+- **No server to run**: a single CLI that prints a table and saves a CSV.
 
 ## Quick start
 
@@ -61,4 +61,4 @@ tokmeter compare before.csv after.csv
 
 ## License
 
-[MIT](LICENSE)
+[MIT](../../LICENSE)
