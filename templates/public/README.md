@@ -35,7 +35,16 @@ Delete a badge that has nothing to show yet: with no release or no ci.yml it ren
 [Why](#why-name) • [Quick start](#quick-start) • [Usage](#usage) • [License](#license)
 -->
 
+<!-- Optional link row to places outside the README. One row is enough: pick this or the nav row.
+[Docs](https://example.com/docs) • [Demo](https://example.com) • [Report a bug](https://github.com/OWNER/REPO/issues/new?labels=bug) • [Request a feature](https://github.com/OWNER/REPO/issues/new?labels=enhancement)
+-->
+
 </div>
+
+<!-- Optional: status notice (experimental, deprecated, moved). Alert types: NOTE, TIP, IMPORTANT, WARNING, CAUTION.
+> [!WARNING]
+> Experimental. The API may change between minor versions.
+-->
 
 <!-- Optional: one screenshot or GIF showing the result. The single most effective "good-looking" element.
 <p align="center"><img src="docs/assets/demo.gif" alt="Demo" width="80%"></p>
@@ -69,6 +78,10 @@ One sentence.
 -->
 
 ## Quick start
+
+<!-- Optional: what must be in place before the first command. One line.
+Requires Python 3.10+ and an API key from [Provider](https://example.com).
+-->
 
 ### Install
 
@@ -111,11 +124,16 @@ name do-other
 
 <!-- 2 to 4 cases. Link to docs/ for the rest. -->
 
-<!-- Optional elements, usable in any section. Move what you need, delete the rest.
+<!-- Optional: the few options people change most. The full list belongs in docs/.
+### Options
 
-> [!NOTE]
-> A GitHub alert (NOTE / TIP / IMPORTANT / WARNING / CAUTION). Keep it for the one thing readers must not miss.
+| Option | Description | Default |
+|---|---|---|
+| `--flag` | What it changes. | `value` |
+| `--other` | What it changes. | `false` |
+-->
 
+<!-- Optional: fold long or secondary content. Works in any section.
 <details>
 <summary><b>More screenshots</b></summary>
 
@@ -141,6 +159,8 @@ One diagram or one paragraph.
 
 - [x] Done item
 - [ ] Next item
+
+See the [open issues](https://github.com/OWNER/REPO/issues) for the full list.
 
 ## Contributing
 

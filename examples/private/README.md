@@ -16,6 +16,8 @@
 
 ## 快速开始
 
+前提：vLLM 服务已在本机 8000 端口启动。
+
 ```sh
 uv sync
 uv run probe.py --turns 8 --model Qwen2.5-7B-Instruct

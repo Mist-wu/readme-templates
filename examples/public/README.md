@@ -23,6 +23,8 @@ Provider dashboards report averages. When you tune a serving stack you need the 
 
 ## Quick start
 
+Requires Python 3.10+ and a running OpenAI-compatible endpoint.
+
 ### Install
 
 ```sh
@@ -58,6 +60,14 @@ tokmeter run --url $URL --model $MODEL --prompts traces.jsonl
 ```sh
 tokmeter compare before.csv after.csv
 ```
+
+### Options
+
+| Option | Description | Default |
+|---|---|---|
+| `--requests` | Requests sent at each concurrency level. | `100` |
+| `--concurrency` | Comma-separated concurrency levels to sweep. | `1,8` |
+| `--prompts` | JSONL file of real requests to replay. | built-in prompt |
 
 ## License
 

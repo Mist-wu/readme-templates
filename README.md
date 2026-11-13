@@ -34,7 +34,7 @@ Command catalogs, conventions and don'ts go to `AGENTS.md`.
 Guidance lives in `<!-- -->` comments, so a half-filled template still looks clean.
 
 ### Optional parts are ready
-Banner, nav row, feature table, alerts, screenshots and Cite are commented out, not deleted.
+Logo, link rows, status notice, feature table, options table, screenshots and Cite are commented out, not deleted.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ ln -s AGENTS.md CLAUDE.md
 - At most 3 badges, and none that render "not found". One emoji in the title is fine, none in section headings.
 - Long or secondary content goes into `<details>` or `docs/`.
 
-Header and Quick start style borrow from [GuideLLM](https://github.com/vllm-project/guidellm) and [Parabolic](https://github.com/NickvisionApps/Parabolic).
+Header and Quick start style borrow from [GuideLLM](https://github.com/vllm-project/guidellm) and [Parabolic](https://github.com/NickvisionApps/Parabolic). The link row, status notice, requirements line and options table come from [Best-README-Template](https://github.com/othneildrew/Best-README-Template) and [github-readme-stats](https://github.com/anuraghazra/github-readme-stats).
 
 ## License
 
