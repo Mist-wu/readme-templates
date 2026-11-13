@@ -2,7 +2,7 @@
 
 # readme-templates
 
-*Two README templates, private and public, that stay short and look good on GitHub.*
+*Two README templates, private and public, that make README better.*
 
 [![License](https://img.shields.io/github/license/Mist-wu/readme-templates)](LICENSE)
 
