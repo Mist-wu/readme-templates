@@ -56,7 +56,7 @@ Either command overwrites `README.md` in the current directory.
 
 ### Fill it in
 
-Replace the placeholders, uncomment the optional parts you need, then delete the comments that are left. In the public template the placeholders are `Name`, `name` and `OWNER/REPO`.
+Replace the placeholders, uncomment the optional parts you need, then delete the comments that are left. In the public template the common placeholders are `Name`, `name` and `OWNER/REPO`.
 
 ### Compare with a filled example
 
