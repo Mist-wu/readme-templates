@@ -21,7 +21,7 @@ This repo holds README templates only. See README.md for what each file is for.
 
 ## Workflow
 
-- When a template changes, update the matching example, and the tables and placeholder list in README.md, in the same commit.
+- When a template changes, update the matching example in the same commit.
 - Before committing, render each changed file with `gh api markdown -F text=@FILE -f mode=markdown` and check that no guidance text shows up in the output. Lint the Chinese files with `autocorrect --lint`.
 - Commit directly to `main`. No branches.
 - `CLAUDE.md` is a symlink to this file. Edit `AGENTS.md` only.

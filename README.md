@@ -34,7 +34,7 @@ Command catalogs, conventions and don'ts go to `AGENTS.md`.
 Guidance lives in `<!-- -->` comments, so a half-filled template still looks clean.
 
 ### Optional parts are ready
-Logo, link rows, status notice, feature table, options table, screenshots and Cite are commented out, not deleted.
+Logos, link rows, screenshots and extra sections are commented out, not deleted.
 
 </td>
 </tr>
@@ -56,7 +56,7 @@ Either command overwrites `README.md` in the current directory.
 
 ### Fill it in
 
-Replace the placeholders, uncomment the optional parts you need, then delete the comments that are left. In the public template the common placeholders are `Name`, `name` and `OWNER/REPO`.
+Replace the placeholders, uncomment the optional parts you need, then delete the comments that are left.
 
 ### Compare with a filled example
 
@@ -74,8 +74,6 @@ Replace the placeholders, uncomment the optional parts you need, then delete the
 | Reader | Future you, and agents | A stranger on first visit |
 | Language | Chinese | English |
 | Length | One screen | As long as Quick start + Usage need |
-| Header | Plain `#` title + one line | Centered: optional logo and emoji, h3 tagline, up to 3 badges |
-| Sections | 状态 · 快速开始 · 目录 · 笔记 | Why · Quick start · Usage · License, plus optional ones |
 
 ### Split README and AGENTS.md
 

@@ -104,10 +104,7 @@ The example prints a validation summary.
 <img src="docs/assets/output.png" alt="Sample output">
 -->
 
-<!--
-Keep this the shortest path from zero to a working result.
-Full flags, env vars and dev setup belong in docs/ or AGENTS.md, not here.
--->
+<!-- Keep this the shortest path from zero to a working result. Full flags, env vars and dev setup belong in docs/ or AGENTS.md, not here. -->
 
 ## Usage
 
