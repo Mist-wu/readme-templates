@@ -21,7 +21,8 @@ How to fill this in:
 <!-- Optional: one emoji before the name, e.g. "# 📝 Name". Only in the title, never in section headings. -->
 # Name
 
-### *One line: what it is and who it is for*
+<!-- Describe the project and its audience in one line. -->
+### *A command-line tool for local datasets*
 
 <!--
 Max 3 badges: version, license, CI. Everything else becomes a link in the text.
@@ -52,11 +53,11 @@ Delete a badge that has nothing to show yet: with no release or no ci.yml it ren
 
 ## Why Name?
 
-Two or three sentences: the problem, and why this is a good answer to it.
+<!-- Explain the problem and the approach. Keep the claims below specific and verifiable. -->
+Name validates datasets before import.
 
-- **Concrete claim one**, followed by a short clause with a number or example.
-- **Concrete claim two**, same shape.
-- **Concrete claim three**. Write as many as are true, 3 to 5 is typical.
+- **Local validation** checks the input before import.
+- **Row-level errors** identify the records to fix.
 
 <!-- Optional: a two-column feature table instead of the list above, for features that each need a heading and a sentence.
 <table>
@@ -97,16 +98,13 @@ name run --example
 
 ### See the result
 
-What the reader should see after running the command, in one sentence.
+The example prints a validation summary.
 
 <!-- Optional: screenshot or GIF of the output.
 <img src="docs/assets/output.png" alt="Sample output">
 -->
 
-<!--
-Keep this the shortest path from zero to a working result.
-Full flags, env vars and dev setup belong in docs/ or AGENTS.md, not here.
--->
+<!-- Keep this the shortest path from zero to a working result. Full flags, env vars and dev setup belong in docs/ or AGENTS.md, not here. -->
 
 ## Usage
 
@@ -144,32 +142,41 @@ name do-other
 </details>
 -->
 
-<!-- Optional sections. Uncomment what applies, delete the rest.
-
+<!-- Optional: Enable this section if it applies.
 ## How it works
 
-One diagram or one paragraph.
+Name reads the input rows and checks them against the schema.
+-->
 
+<!-- Optional: Enable this section if it applies.
 ## Documentation
 
 - [Guide](docs/guide.md)
 - [API reference](docs/api.md)
+-->
 
+<!-- Optional: Enable this section if it applies.
 ## Roadmap
 
 - [x] Done item
 - [ ] Next item
 
 See the [open issues](https://github.com/OWNER/REPO/issues) for the full list.
+-->
 
+<!-- Optional: Enable this section if it applies.
 ## Contributing
 
 Issues and PRs are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+-->
 
+<!-- Optional: Enable this section if it applies.
 ## FAQ
 
 **Question?** Answer.
+-->
 
+<!-- Optional: Fill in the author and year, and update the citation key.
 ## Cite
 
 ```bibtex
@@ -180,11 +187,12 @@ Issues and PRs are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
   url    = {https://github.com/OWNER/REPO}
 }
 ```
+-->
 
+<!-- Optional: Enable this section if it applies.
 ## Acknowledgements
 
-- [Project](https://example.com): what this project borrows from it.
-
+- [Project](https://example.com) provided the example dataset.
 -->
 
 ## License
